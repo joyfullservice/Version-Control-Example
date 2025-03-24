@@ -158,6 +158,18 @@ Begin
         dbText "Name" ="Products.[Product Code]"
         dbLong "AggregateType" ="-1"
     End
+    Begin
+        dbText "Name" ="Product Name"
+    End
+    Begin
+        dbText "Name" ="Product Code"
+    End
+    Begin
+        dbText "Name" ="Reorder Level"
+    End
+    Begin
+        dbText "Name" ="Target Level"
+    End
 End
 Begin
     State =0

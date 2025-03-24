@@ -45,6 +45,60 @@ Begin
         dbBoolean "ColumnHidden" ="0"
         dbLong "AggregateType" ="-1"
     End
+    Begin
+        dbText "Name" ="ID"
+    End
+    Begin
+        dbText "Name" ="Company"
+    End
+    Begin
+        dbText "Name" ="Last Name"
+    End
+    Begin
+        dbText "Name" ="First Name"
+    End
+    Begin
+        dbText "Name" ="E-mail Address"
+    End
+    Begin
+        dbText "Name" ="Job Title"
+    End
+    Begin
+        dbText "Name" ="Business Phone"
+    End
+    Begin
+        dbText "Name" ="Home Phone"
+    End
+    Begin
+        dbText "Name" ="Mobile Phone"
+    End
+    Begin
+        dbText "Name" ="Fax Number"
+    End
+    Begin
+        dbText "Name" ="Address"
+    End
+    Begin
+        dbText "Name" ="City"
+    End
+    Begin
+        dbText "Name" ="State/Province"
+    End
+    Begin
+        dbText "Name" ="ZIP/Postal Code"
+    End
+    Begin
+        dbText "Name" ="Country/Region"
+    End
+    Begin
+        dbText "Name" ="Web Page"
+    End
+    Begin
+        dbText "Name" ="Notes"
+    End
+    Begin
+        dbText "Name" ="Attachments"
+    End
 End
 Begin
     State =0

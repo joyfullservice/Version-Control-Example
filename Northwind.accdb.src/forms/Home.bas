@@ -14,6 +14,8 @@ Begin Form
     Width =11640
     DatasheetFontHeight =11
     ItemSuffix =168
+    Right =19320
+    Bottom =12465
     Tag ="Home"
     RecSrcDt = Begin
         0xf2f4232b580ae340
@@ -376,7 +378,7 @@ Begin Form
                     BorderColor =16251385
                     ForeColor =16777215
                     Name ="Auto_Title0"
-                    Caption ="Northwind Traders"
+                    Caption ="Northwind Traders (Production)"
                     FontName ="Trebuchet"
                 End
                 Begin ComboBox
@@ -388,7 +390,7 @@ Begin Form
                     Top =690
                     Width =2280
                     Height =360
-                    ColumnOrder =5
+                    ColumnOrder =1
                     FontSize =10
                     BorderColor =16251385
                     Name ="cboCurrentEmployee"
