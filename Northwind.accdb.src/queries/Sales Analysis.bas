@@ -167,12 +167,6 @@ Begin
         dbText "Name" ="[Customers Extended].[Country/Region]"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="Product Name"
-    End
-    Begin
-        dbText "Name" ="Category"
-    End
 End
 Begin
     State =0

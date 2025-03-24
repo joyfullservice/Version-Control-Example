@@ -34,9 +34,6 @@ Begin
         dbText "Name" ="[Order Details].[Order ID]"
         dbLong "AggregateType" ="-1"
     End
-    Begin
-        dbText "Name" ="Order ID"
-    End
 End
 Begin
     State =0
