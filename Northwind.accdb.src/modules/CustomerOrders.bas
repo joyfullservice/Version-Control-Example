@@ -26,12 +26,14 @@ Function CreateInvoice(OrderID As Long, Amt As Currency, InvoiceID As Long) As B
     End If
 End Function
 
+
 ' Function to determine whether an order has been invoiced
 Function IsInvoiced(OrderID As Long) As Boolean
     IsInvoiced = DCountWrapper("[Invoice ID]", "Invoices", "[Order ID]=" & OrderID) > 0
 End Function
 
 
+' Another test
 Function PrintInvoice(OrderID As Long) As Boolean
     DoCmd.OpenReport "Invoice", acViewPreview, , "[Order ID]=" & OrderID, acDialog
 End Function
@@ -51,6 +53,7 @@ Function SetStatus(OrderID As Long, Status As CustomerOrderStatusEnum) As Boolea
 End Function
 
 
+' Test
 Function Delete(OrderID As Long) As Boolean
     Dim rsw As New RecordsetWrapper
     If rsw.OpenRecordset("Orders", "[Order ID] = " & OrderID) Then

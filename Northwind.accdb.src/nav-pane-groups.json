@@ -422,13 +422,6 @@
                 "Position": 66
               },
               {
-                "Name": "CustomerOrders",
-                "Type": -32761,
-                "Flags": 0,
-                "Icon": 0,
-                "Position": 67
-              },
-              {
                 "Name": "DomainFunctionWrappers",
                 "Type": -32761,
                 "Flags": 0,
