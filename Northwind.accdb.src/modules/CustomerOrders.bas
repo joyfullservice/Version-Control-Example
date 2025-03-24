@@ -26,7 +26,7 @@ Function CreateInvoice(OrderID As Long, Amt As Currency, InvoiceID As Long) As B
     End If
 End Function
 
-
+' Function to determine whether an order has been invoiced
 Function IsInvoiced(OrderID As Long) As Boolean
     IsInvoiced = DCountWrapper("[Invoice ID]", "Invoices", "[Order ID]=" & OrderID) > 0
 End Function
