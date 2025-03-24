@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Purchase_x0020_Order_x0020_Status>
+    <Status_x0020_ID>0</Status_x0020_ID>
+    <Status>New</Status>
+  </Purchase_x0020_Order_x0020_Status>
+  <Purchase_x0020_Order_x0020_Status>
+    <Status_x0020_ID>1</Status_x0020_ID>
+    <Status>Submitted</Status>
+  </Purchase_x0020_Order_x0020_Status>
+  <Purchase_x0020_Order_x0020_Status>
+    <Status_x0020_ID>2</Status_x0020_ID>
+    <Status>Approved</Status>
+  </Purchase_x0020_Order_x0020_Status>
+  <Purchase_x0020_Order_x0020_Status>
+    <Status_x0020_ID>3</Status_x0020_ID>
+    <Status>Closed</Status>
+  </Purchase_x0020_Order_x0020_Status>
+</dataroot>

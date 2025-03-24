@@ -1,0 +1,38 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sales_x0020_Reports>
+    <Group_x0020_By>Category</Group_x0020_By>
+    <Display>Category</Display>
+    <Title>Sales By Category</Title>
+    <Filter_x0020_Row_x0020_Source>SELECT DISTINCT [Category] FROM [Products] ORDER BY [Category];</Filter_x0020_Row_x0020_Source>
+    <Default>0</Default>
+  </Sales_x0020_Reports>
+  <Sales_x0020_Reports>
+    <Group_x0020_By>Country/Region</Group_x0020_By>
+    <Display>Country/Region</Display>
+    <Title>Sales By Country</Title>
+    <Filter_x0020_Row_x0020_Source>SELECT DISTINCT [Country/Region] FROM [Customers Extended] ORDER BY [Country/Region];</Filter_x0020_Row_x0020_Source>
+    <Default>0</Default>
+  </Sales_x0020_Reports>
+  <Sales_x0020_Reports>
+    <Group_x0020_By>Customer ID</Group_x0020_By>
+    <Display>Customer</Display>
+    <Title>Sales By Customer</Title>
+    <Filter_x0020_Row_x0020_Source>SELECT DISTINCT [Company] FROM [Customers Extended] ORDER BY [Company];</Filter_x0020_Row_x0020_Source>
+    <Default>0</Default>
+  </Sales_x0020_Reports>
+  <Sales_x0020_Reports>
+    <Group_x0020_By>Employee ID</Group_x0020_By>
+    <Display>Employee</Display>
+    <Title>Sales By Employee</Title>
+    <Filter_x0020_Row_x0020_Source>SELECT DISTINCT [Employee Name] FROM [Employees Extended] ORDER BY [Employee Name];</Filter_x0020_Row_x0020_Source>
+    <Default>0</Default>
+  </Sales_x0020_Reports>
+  <Sales_x0020_Reports>
+    <Group_x0020_By>Product ID</Group_x0020_By>
+    <Display>Product</Display>
+    <Title>Sales by Product</Title>
+    <Filter_x0020_Row_x0020_Source>SELECT DISTINCT [Product Name] FROM [Products] ORDER BY [Product Name];</Filter_x0020_Row_x0020_Source>
+    <Default>1</Default>
+  </Sales_x0020_Reports>
+</dataroot>

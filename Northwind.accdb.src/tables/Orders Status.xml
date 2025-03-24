@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Orders_x0020_Status>
+    <Status_x0020_ID>0</Status_x0020_ID>
+    <Status_x0020_Name>New</Status_x0020_Name>
+  </Orders_x0020_Status>
+  <Orders_x0020_Status>
+    <Status_x0020_ID>1</Status_x0020_ID>
+    <Status_x0020_Name>Invoiced</Status_x0020_Name>
+  </Orders_x0020_Status>
+  <Orders_x0020_Status>
+    <Status_x0020_ID>2</Status_x0020_ID>
+    <Status_x0020_Name>Shipped</Status_x0020_Name>
+  </Orders_x0020_Status>
+  <Orders_x0020_Status>
+    <Status_x0020_ID>3</Status_x0020_ID>
+    <Status_x0020_Name>Closed</Status_x0020_Name>
+  </Orders_x0020_Status>
+</dataroot>

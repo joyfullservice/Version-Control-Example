@@ -1,0 +1,340 @@
+﻿<?xml version="1.0"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:od="urn:schemas-microsoft-com:officedata">
+  <xsd:schema>
+    <xsd:element name="dataroot">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element ref="Employees" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="generated" type="xsd:dateTime"></xsd:attribute>
+      </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="Employees">
+      <xsd:annotation>
+        <xsd:appinfo>
+          <od:index index-name="City" index-key="City " primary="no" unique="no" clustered="no" order="asc"></od:index>
+          <od:index index-name="Company" index-key="Company " primary="no" unique="no" clustered="no" order="asc"></od:index>
+          <od:index index-name="First Name" index-key="First_x0020_Name " primary="no" unique="no" clustered="no" order="asc"></od:index>
+          <od:index index-name="Last Name" index-key="Last_x0020_Name " primary="no" unique="no" clustered="no" order="asc"></od:index>
+          <od:index index-name="Postal Code" index-key="ZIP_x002F_Postal_x0020_Code " primary="no" unique="no" clustered="no" order="asc"></od:index>
+          <od:index index-name="PrimaryKey" index-key="ID " primary="yes" unique="yes" clustered="no" order="asc"></od:index>
+          <od:index index-name="State/Province" index-key="State_x002F_Province " primary="no" unique="no" clustered="no" order="asc"></od:index>
+        </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element name="ID" minOccurs="1" od:jetType="autonumber" od:sqlSType="int" od:autoUnique="yes" od:nonNullable="yes" type="xsd:int"></xsd:element>
+          <xsd:element name="Company" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Last_x0020_Name" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="First_x0020_Name" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="E-mail_x0020_Address" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Job_x0020_Title" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Business_x0020_Phone" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="25"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Home_x0020_Phone" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="25"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Mobile_x0020_Phone" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="25"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Fax_x0020_Number" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="25"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Address" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="536870910"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="City" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="State_x002F_Province" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="ZIP_x002F_Postal_x0020_Code" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="15"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Country_x002F_Region" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="50"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Web_x0020_Page" minOccurs="0" od:jetType="hyperlink" od:sqlSType="ntext" od:hyperlink="yes">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="536870910"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Notes" minOccurs="0" od:jetType="memo" od:sqlSType="ntext" od:textFormat="1">
+            <xsd:simpleType>
+              <xsd:restriction base="xsd:string">
+                <xsd:maxLength value="536870910"></xsd:maxLength>
+              </xsd:restriction>
+            </xsd:simpleType>
+          </xsd:element>
+          <xsd:element name="Attachments" minOccurs="0" od:jetType="complex" od:jetComplexType="MSysComplexType_Attachment" maxOccurs="unbounded">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="FileData" minOccurs="0" od:jetType="oleobject" od:sqlSType="image">
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:base64Binary">
+                      <xsd:maxLength value="1476395008"></xsd:maxLength>
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="FileFlags" minOccurs="0" od:jetType="longinteger" od:sqlSType="int" type="xsd:int"></xsd:element>
+                <xsd:element name="FileName" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                      <xsd:maxLength value="255"></xsd:maxLength>
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="FileTimeStamp" minOccurs="0" od:jetType="datetime" od:sqlSType="datetime" type="xsd:dateTime"></xsd:element>
+                <xsd:element name="FileType" minOccurs="0" od:jetType="text" od:sqlSType="nvarchar">
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                      <xsd:maxLength value="255"></xsd:maxLength>
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+                <xsd:element name="FileURL" minOccurs="0" od:jetType="memo" od:sqlSType="ntext">
+                  <xsd:simpleType>
+                    <xsd:restriction base="xsd:string">
+                      <xsd:maxLength value="536870910"></xsd:maxLength>
+                    </xsd:restriction>
+                  </xsd:simpleType>
+                </xsd:element>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Employees>
+      <ID>1</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Freehafer</Last_x0020_Name>
+      <First_x0020_Name>Nancy</First_x0020_Name>
+      <E-mail_x0020_Address>nancy@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Sales Representative</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 1st Avenue</Address>
+      <City>Seattle</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>#http://northwindtraders.com#</Web_x0020_Page>
+    </Employees>
+    <Employees>
+      <ID>2</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Cencini</Last_x0020_Name>
+      <First_x0020_Name>Andrew</First_x0020_Name>
+      <E-mail_x0020_Address>andrew@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Vice President, Sales</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 2nd Avenue</Address>
+      <City>Bellevue</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+      <Notes>Joined the company as a sales representative, was promoted to sales manager and was then named vice president of sales.</Notes>
+    </Employees>
+    <Employees>
+      <ID>3</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Kotas</Last_x0020_Name>
+      <First_x0020_Name>Jan</First_x0020_Name>
+      <E-mail_x0020_Address>jan@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Sales Representative</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 3rd Avenue</Address>
+      <City>Redmond</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+      <Notes>Was hired as a sales associate and was promoted to sales representative.</Notes>
+    </Employees>
+    <Employees>
+      <ID>4</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Sergienko</Last_x0020_Name>
+      <First_x0020_Name>Mariya</First_x0020_Name>
+      <E-mail_x0020_Address>mariya@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Sales Representative</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 4th Avenue</Address>
+      <City>Kirkland</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+    </Employees>
+    <Employees>
+      <ID>5</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Thorpe</Last_x0020_Name>
+      <First_x0020_Name>Steven</First_x0020_Name>
+      <E-mail_x0020_Address>steven@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Sales Manager</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 5th Avenue</Address>
+      <City>Seattle</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+      <Notes>Joined the company as a sales representative and was promoted to sales manager.  Fluent in French.</Notes>
+    </Employees>
+    <Employees>
+      <ID>6</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Neipper</Last_x0020_Name>
+      <First_x0020_Name>Michael</First_x0020_Name>
+      <E-mail_x0020_Address>michael@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Sales Representative</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 6th Avenue</Address>
+      <City>Redmond</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+      <Notes>Fluent in Japanese and can read and write French, Portuguese, and Spanish.</Notes>
+    </Employees>
+    <Employees>
+      <ID>7</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Zare</Last_x0020_Name>
+      <First_x0020_Name>Robert</First_x0020_Name>
+      <E-mail_x0020_Address>robert@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Sales Representative</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 7th Avenue</Address>
+      <City>Seattle</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+    </Employees>
+    <Employees>
+      <ID>8</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Giussani</Last_x0020_Name>
+      <First_x0020_Name>Laura</First_x0020_Name>
+      <E-mail_x0020_Address>laura@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Sales Coordinator</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 8th Avenue</Address>
+      <City>Redmond</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+      <Notes>Reads and writes French.</Notes>
+    </Employees>
+    <Employees>
+      <ID>9</ID>
+      <Company>Northwind Traders</Company>
+      <Last_x0020_Name>Hellung-Larsen</Last_x0020_Name>
+      <First_x0020_Name>Anne</First_x0020_Name>
+      <E-mail_x0020_Address>anne@northwindtraders.com</E-mail_x0020_Address>
+      <Job_x0020_Title>Sales Representative</Job_x0020_Title>
+      <Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+      <Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+      <Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+      <Address>123 9th Avenue</Address>
+      <City>Seattle</City>
+      <State_x002F_Province>WA</State_x002F_Province>
+      <ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+      <Country_x002F_Region>USA</Country_x002F_Region>
+      <Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+      <Notes>Fluent in French and German.</Notes>
+    </Employees>
+  </dataroot>
+</root>

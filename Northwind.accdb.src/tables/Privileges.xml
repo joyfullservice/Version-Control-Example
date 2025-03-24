@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Privileges>
+    <Privilege_x0020_ID>2</Privilege_x0020_ID>
+    <Privilege_x0020_Name>Purchase Approvals</Privilege_x0020_Name>
+  </Privileges>
+</dataroot>

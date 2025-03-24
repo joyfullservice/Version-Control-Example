@@ -1,0 +1,126 @@
+﻿{
+  "Info": {
+    "AddinVersion": "4.1.0",
+    "AccessVersion": "14.0 32-bit"
+  },
+  "Options": {
+    "ExportFolder": "",
+    "ShowDebug": false,
+    "UseFastSave": true,
+    "UseMergeBuild": false,
+    "UseGitIntegration": false,
+    "SavePrintVars": true,
+    "ExportPrintSettings": {
+      "Orientation": true,
+      "PaperSize": true,
+      "Duplex": false,
+      "PrintQuality": false,
+      "DisplayFrequency": false,
+      "Collate": false,
+      "Resolution": false,
+      "DisplayFlags": false,
+      "Color": false,
+      "Copies": false,
+      "ICMMethod": false,
+      "DefaultSource": false,
+      "Scale": false,
+      "ICMIntent": false,
+      "FormName": false,
+      "PaperLength": false,
+      "DitherType": false,
+      "MediaType": false,
+      "PaperWidth": false,
+      "TTOption": false
+    },
+    "SaveQuerySQL": true,
+    "FormatSQL": true,
+    "ForceImportOriginalQuerySQL": false,
+    "SaveTableSQL": true,
+    "SplitLayoutFromVBA": true,
+    "StripPublishOption": true,
+    "SanitizeColors": 1,
+    "SanitizeLevel": 2,
+    "ExtractThemeFiles": false,
+    "TablesToExportData": {
+      "Customers": {
+        "Format": "XML Format"
+      },
+      "Employee Privileges": {
+        "Format": "XML Format"
+      },
+      "Employees": {
+        "Format": "XML Format"
+      },
+      "Inventory Transaction Types": {
+        "Format": "XML Format"
+      },
+      "Inventory Transactions": {
+        "Format": "XML Format"
+      },
+      "Invoices": {
+        "Format": "XML Format"
+      },
+      "Order Details": {
+        "Format": "XML Format"
+      },
+      "Order Details Status": {
+        "Format": "XML Format"
+      },
+      "Orders": {
+        "Format": "XML Format"
+      },
+      "Orders Status": {
+        "Format": "XML Format"
+      },
+      "Orders Tax Status": {
+        "Format": "XML Format"
+      },
+      "Privileges": {
+        "Format": "XML Format"
+      },
+      "Products": {
+        "Format": "XML Format"
+      },
+      "Purchase Order Details": {
+        "Format": "XML Format"
+      },
+      "Purchase Order Status": {
+        "Format": "XML Format"
+      },
+      "Purchase Orders": {
+        "Format": "XML Format"
+      },
+      "Sales Reports": {
+        "Format": "XML Format"
+      },
+      "Shippers": {
+        "Format": "XML Format"
+      },
+      "Strings": {
+        "Format": "XML Format"
+      },
+      "Suppliers": {
+        "Format": "XML Format"
+      },
+      "USysRegInfo": {
+        "Format": "Tab Delimited"
+      },
+      "USysRibbons": {
+        "Format": "Tab Delimited"
+      }
+    },
+    "SchemaExports": {
+    },
+    "RunBeforeExport": "",
+    "RunAfterExport": "",
+    "RunBeforeBuild": "",
+    "RunAfterBuild": "",
+    "RunBeforeMerge": "",
+    "RunAfterMerge": "",
+    "ShowVCSLegacy": true,
+    "HashAlgorithm": "SHA256",
+    "UseShortHash": true,
+    "BreakOnError": false,
+    "PreserveRubberDuckID": false
+  }
+}

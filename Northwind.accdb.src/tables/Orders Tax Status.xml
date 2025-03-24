@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Orders_x0020_Tax_x0020_Status>
+    <ID>0</ID>
+    <Tax_x0020_Status_x0020_Name>Tax Exempt</Tax_x0020_Status_x0020_Name>
+  </Orders_x0020_Tax_x0020_Status>
+  <Orders_x0020_Tax_x0020_Status>
+    <ID>1</ID>
+    <Tax_x0020_Status_x0020_Name>Taxable</Tax_x0020_Status_x0020_Name>
+  </Orders_x0020_Tax_x0020_Status>
+</dataroot>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Strings>
+    <String_x0020_ID>2</String_x0020_ID>
+    <String_x0020_Data>Northwind Traders</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>3</String_x0020_ID>
+    <String_x0020_Data>Cannot remove posted inventory!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>4</String_x0020_ID>
+    <String_x0020_Data>Back ordered product filled for Order #|</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>5</String_x0020_ID>
+    <String_x0020_Data>Discounted price below cost!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>6</String_x0020_ID>
+    <String_x0020_Data>Insufficient inventory.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>7</String_x0020_ID>
+    <String_x0020_Data>Insufficient inventory. Do you want to create a purchase order?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>8</String_x0020_ID>
+    <String_x0020_Data>Purchase orders were successfully created for | products</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>9</String_x0020_ID>
+    <String_x0020_Data>There are no products below their respective reorder levels</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>10</String_x0020_ID>
+    <String_x0020_Data>Must specify customer name!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>11</String_x0020_ID>
+    <String_x0020_Data>Restocking will generate purchase orders for all products below desired inventory levels.  Do you want to continue?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>12</String_x0020_ID>
+    <String_x0020_Data>Cannot create purchase order.  No suppliers listed for specified product</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>13</String_x0020_ID>
+    <String_x0020_Data>Discounted price is below cost!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>14</String_x0020_ID>
+    <String_x0020_Data>Do you want to continue?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>15</String_x0020_ID>
+    <String_x0020_Data>Order is already invoiced. Do you want to print the invoice?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>16</String_x0020_ID>
+    <String_x0020_Data>Order does not contain any line items</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>17</String_x0020_ID>
+    <String_x0020_Data>Cannot create invoice!  Inventory has not been allocated for each specified product.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>18</String_x0020_ID>
+    <String_x0020_Data>Sorry, there are no sales in the specified time period</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>19</String_x0020_ID>
+    <String_x0020_Data>Product successfully restocked.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>21</String_x0020_ID>
+    <String_x0020_Data>Product does not need restocking! Product is already at desired inventory level.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>22</String_x0020_ID>
+    <String_x0020_Data>Product restocking failed!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>23</String_x0020_ID>
+    <String_x0020_Data>Invalid login specified!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>24</String_x0020_ID>
+    <String_x0020_Data>Must first select reported!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>25</String_x0020_ID>
+    <String_x0020_Data>Changing supplier will remove purchase line items, continue?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>26</String_x0020_ID>
+    <String_x0020_Data>Purchase orders were successfully submitted for | products.  Do you want to view the restocking report?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>27</String_x0020_ID>
+    <String_x0020_Data>There was an error attempting to restock inventory levels.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>28</String_x0020_ID>
+    <String_x0020_Data>| product(s) were successfully restocked.  Do you want to view the restocking report?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>29</String_x0020_ID>
+    <String_x0020_Data>You cannot remove purchase line items already posted to inventory!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>30</String_x0020_ID>
+    <String_x0020_Data>There was an error removing one or more purchase line items.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>31</String_x0020_ID>
+    <String_x0020_Data>You cannot modify quantity for purchased product already received or posted to inventory.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>32</String_x0020_ID>
+    <String_x0020_Data>You cannot modify price for purchased product already received or posted to inventory.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>33</String_x0020_ID>
+    <String_x0020_Data>Product has been successfully posted to inventory.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>34</String_x0020_ID>
+    <String_x0020_Data>Sorry, product cannot be successfully posted to inventory.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>35</String_x0020_ID>
+    <String_x0020_Data>There are orders with this product on back order.  Would you like to fill them now?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>36</String_x0020_ID>
+    <String_x0020_Data>Cannot post product to inventory without specifying received date!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>37</String_x0020_ID>
+    <String_x0020_Data>Do you want to post received product to inventory?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>38</String_x0020_ID>
+    <String_x0020_Data>Initialize purchase, orders, and inventory data?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>39</String_x0020_ID>
+    <String_x0020_Data>Must first specify employee name!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>40</String_x0020_ID>
+    <String_x0020_Data>Specified user must be logged in to approve purchase!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>41</String_x0020_ID>
+    <String_x0020_Data>Purchase order must contain completed line items before it can be approved</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>42</String_x0020_ID>
+    <String_x0020_Data>Sorry, you do not have permission to approve purchases.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>43</String_x0020_ID>
+    <String_x0020_Data>Purchase successfully approved</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>44</String_x0020_ID>
+    <String_x0020_Data>Purchase cannot be approved</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>45</String_x0020_ID>
+    <String_x0020_Data>Purchase successfully submitted for approval</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>46</String_x0020_ID>
+    <String_x0020_Data>Purchase cannot be submitted for approval</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>47</String_x0020_ID>
+    <String_x0020_Data>Sorry, purchase order does not contain line items</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>48</String_x0020_ID>
+    <String_x0020_Data>Do you want to cancel this order?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>49</String_x0020_ID>
+    <String_x0020_Data>Canceling an order will permanently delete the order.  Are you sure you want to cancel?</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>100</String_x0020_ID>
+    <String_x0020_Data>Your order was successfully canceled.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>101</String_x0020_ID>
+    <String_x0020_Data>Cannot cancel an order that has items received and posted to inventory.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>102</String_x0020_ID>
+    <String_x0020_Data>There was an error trying to cancel this order.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>103</String_x0020_ID>
+    <String_x0020_Data>The invoice for this order has not yet been created.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>104</String_x0020_ID>
+    <String_x0020_Data>Shipping information is not complete.  Please specify all shipping information and try again.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>105</String_x0020_ID>
+    <String_x0020_Data>Cannot mark as shipped.  Order must first be invoiced!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>106</String_x0020_ID>
+    <String_x0020_Data>Cannot cancel an order that has already shipped!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>107</String_x0020_ID>
+    <String_x0020_Data>Must first specify salesperson!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>108</String_x0020_ID>
+    <String_x0020_Data>Order is now marked closed.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>109</String_x0020_ID>
+    <String_x0020_Data>Order must first be marked shipped before closing.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>110</String_x0020_ID>
+    <String_x0020_Data>Must first specify payment information!</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>111</String_x0020_ID>
+    <String_x0020_Data>There was an error attempting to restock inventory levels.  | product(s) were successfully restocked.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>112</String_x0020_ID>
+    <String_x0020_Data>You must supply a Unit Cost.</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>113</String_x0020_ID>
+    <String_x0020_Data>Fill back ordered product, Order #|</String_x0020_Data>
+  </Strings>
+  <Strings>
+    <String_x0020_ID>114</String_x0020_ID>
+    <String_x0020_Data>Purchase generated based on Order #|</String_x0020_Data>
+  </Strings>
+</dataroot>

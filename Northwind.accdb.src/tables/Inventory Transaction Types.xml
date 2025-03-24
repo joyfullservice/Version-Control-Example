@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<dataroot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Inventory_x0020_Transaction_x0020_Types>
+    <ID>1</ID>
+    <Type_x0020_Name>Purchased</Type_x0020_Name>
+  </Inventory_x0020_Transaction_x0020_Types>
+  <Inventory_x0020_Transaction_x0020_Types>
+    <ID>2</ID>
+    <Type_x0020_Name>Sold</Type_x0020_Name>
+  </Inventory_x0020_Transaction_x0020_Types>
+  <Inventory_x0020_Transaction_x0020_Types>
+    <ID>3</ID>
+    <Type_x0020_Name>On Hold</Type_x0020_Name>
+  </Inventory_x0020_Transaction_x0020_Types>
+  <Inventory_x0020_Transaction_x0020_Types>
+    <ID>4</ID>
+    <Type_x0020_Name>Waste</Type_x0020_Name>
+  </Inventory_x0020_Transaction_x0020_Types>
+</dataroot>
